@@ -181,8 +181,8 @@ export default function Home() {
                     Design
                   </h1>
                   <p className='text-white sm:text-slate-300 font-light text-lg pt-2 sm:text-2xl sm:pr-20 sm:pt-3 leading-relaxed sm:leading-relaxed'>
-                  I casually designs in my free time as well. This can graphics for
-                  social media, UI/UX and anything thats related to design
+                  I casually designs in my free time as well. This can be graphics for
+                  social media, UI/UX and anything that's related to design
                   </p>
                 </div>
               </div>
