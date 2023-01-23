@@ -126,7 +126,7 @@ export default function Home() {
                   Girlscript Summer of Code
                 </p>
                 <p className='py-3 px-4 text-base text-[#FAC22E] font-base sm:pt-8 sm:mx-4'>
-                  Designer
+                  Core team
                 </p>
                 </div>
                 <p className='px-4 text-[#9C9C9C] sm:pl-12 sm:pr-16 sm:leading-relaxed sm:text-base sm:py-4'>
