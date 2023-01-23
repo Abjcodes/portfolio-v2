@@ -248,11 +248,11 @@ export default function Home() {
                       Stack: HTML, CSS, JS, Manifest v3
                     </p>
                   <div className='flex flex-row gap-2'>
-                  <div className='my-5 rounded-full border border-[#4CA7FF] text-center w-24 sm:w-48'>
+                  {/* <div className='my-5 rounded-full border border-[#4CA7FF] text-center w-24 sm:w-48'>
                   <p className='py-2 text-[#4CA7FF] text-sm font-medium'>
                    Extension
                   </p>
-                  </div>
+                  </div> */}
                   <div className='my-5 rounded-full border border-[#4CA7FF] text-center w-24 sm:w-48'>
                   <p className='py-2 text-[#4CA7FF] text-sm font-medium'>
                     UI/UX
@@ -301,11 +301,11 @@ export default function Home() {
                       Stack: React.js, Axios
                     </p>
                   <div className='flex flex-row gap-2'>
-                  <div className='my-5 rounded-full border border-[#FFA696] text-center w-24 sm:w-48'>
+                  {/* <div className='my-5 rounded-full border border-[#FFA696] text-center w-24 sm:w-48'>
                   <p className='py-2 text-[#FFA292] text-sm font-medium'>
                     Web App
                   </p>
-                  </div>
+                  </div> */}
                   <div className='my-5 rounded-full border border-[#FFA696] text-center w-24 sm:w-48'>
                   <p className='py-2 text-[#FFA292] text-sm font-medium'>
                     React
@@ -368,14 +368,14 @@ export default function Home() {
                   </div>
                   <div className='my-5 rounded-full border border-[#FFD864] text-center w-24 sm:w-48'>
                   <p className='py-2 text-[#FFD864] text-sm font-medium'>
-                  Context Api
+                  Context
                   </p>
                   </div>
-                  <div className='my-5 rounded-full border border-[#FFD864] text-center w-24 sm:w-48'>
+                  {/* <div className='my-5 rounded-full border border-[#FFD864] text-center w-24 sm:w-48'>
                   <p className='py-2 text-[#FFD864] text-sm font-medium'>
                     Local storage
                   </p>
-                  </div>
+                  </div> */}
                   </div>
                   <p className='pt-2 pb-4 sm:py-8 sm:text-lg text-[#FFD864] font-light'>
                     <a href='https://github.com/Abjcodes/Budget-Tracker' className='hover:text-[#fecb32]'>
