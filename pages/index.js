@@ -190,31 +190,31 @@ export default function Home() {
               <div className='flex flex-col sm:flex-row gap-4 rounded-xl sm:w-1/2'>
                 {/* For dribble and behance */}
                 <div className='flex h-28 sm:h-full sm:flex-col gap-4 sm:w-1/3'>
-                  <button className='flex rounded-xl w-1/2 sm:w-full sm:h-1/2 border-2 border-[#EA4C89] items-center justify-center'>
+                  <a className='flex rounded-xl w-1/2 sm:w-full sm:h-1/2 border-2 border-[#EA4C89] items-center justify-center' href='https://dribbble.com/AbijithMV' target="_blank" rel="noopener noreferrer">
                   <Image 
                   src={dribbleIcon}
                   height={60}
                   />
-                  </button>
-                  <button className='flex rounded-xl w-1/2 sm:w-full sm:h-1/2 border-2 border-[#3177FF] items-center justify-center'>
+                  </a>
+                  <a className='flex rounded-xl w-1/2 sm:w-full sm:h-1/2 border-2 border-[#3177FF] items-center justify-center' href='https://www.behance.net/abijithmv' target="_blank" rel="noopener noreferrer">
                   <Image 
                   src={behanceIcon}
                   height={60}
                   />
-                  </button>
+                  </a>
                 </div>
                 {/* For dev daily and case study */}
                 <div className='flex flex-col gap-3 sm:w-2/3'>
                   <button className='rounded-xl w-full h-1/2 border-2 border-[#0FB9EF] text-center items-center'>
                     {/* fix href */}
-                    <a href='https://www.instagram.com/devdaily_insta/'>
+                    <a href='https://www.instagram.com/devdaily_insta/' target="_blank" rel="noopener noreferrer">
                     <p className='py-7 text-[#0FB9EF] font-semibold text-xl'>
                       Dev daily
                     </p>
                     </a>
                   </button>
                   <button className='rounded-xl w-full h-1/2 border-2 border-[#3BA9A2] text-center'>
-                    <a href='https://www.notion.so/0007/MARKS-redesign-UI-UX-task-2-3a5efc72a19d41e089037ced41e4a424'>
+                    <a href='https://www.notion.so/0007/MARKS-redesign-UI-UX-task-2-3a5efc72a19d41e089037ced41e4a424' target="_blank" rel="noopener noreferrer">
                     <p className=' py-7 text-[#57BFB9] font-semibold text-xl'>
                       Designing for habituation (case study)
                     </p>
@@ -270,7 +270,7 @@ export default function Home() {
                   </div>
                   </div>
                   <p className='pt-2 pb-4 sm:py-8 sm:text-lg text-[#99CDFF] font-light'>
-                    <a href='https://github.com/Abjcodes/Sessions' className='hover:text-[#2f95f5]'>
+                    <a href='https://github.com/Abjcodes/Sessions' className='hover:text-[#2f95f5]' target="_blank" rel="noopener noreferrer">
                     View on github
                     </a>
                   </p>
@@ -323,7 +323,7 @@ export default function Home() {
                   </div>
                   </div>
                   <p className='pt-2 pb-4 sm:py-8 sm:text-lg text-[#FFA292] font-light'>
-                    <a href='https://github.com/Abjcodes/crypto-price-tracker' className='hover:text-[#f47058]'>
+                    <a href='https://github.com/Abjcodes/crypto-price-tracker' className='hover:text-[#f47058]' target="_blank" rel="noopener noreferrer">
                     View on github
                     </a>
                   </p>
@@ -378,7 +378,7 @@ export default function Home() {
                   </div> */}
                   </div>
                   <p className='pt-2 pb-4 sm:py-8 sm:text-lg text-[#FFD864] font-light'>
-                    <a href='https://github.com/Abjcodes/Budget-Tracker' className='hover:text-[#fecb32]'>
+                    <a href='https://github.com/Abjcodes/Budget-Tracker' className='hover:text-[#fecb32]' target="_blank" rel="noopener noreferrer">
                     View on github
                     </a>
                   </p>
@@ -403,21 +403,21 @@ export default function Home() {
             <div className='rounded-xl sm:w-1/2 flex flex-col gap-3'>
 
               <div className='sm:h-1/2 h-24 rounded-xl flex flex-row gap-5'>
-                <a className='flex rounded-xl bg-blue-600 h-full w-1/3 text-center justify-center' href='https://twitter.com/AbijithVasanth1'>
+                <a className='flex rounded-xl bg-blue-600 h-full w-1/3 text-center justify-center' href='https://twitter.com/AbijithVasanth1' target="_blank" rel="noopener noreferrer">
                   <Image 
                   src={twitterIcn}
                   height={60}
                   width={50}
                   />
                 </a>
-                <a className='flex rounded-xl bg-[#4CA7FF] h-full w-1/3 text-center justify-center' href='https://www.linkedin.com/in/abijith-vasanthakumar-b87b501b0/'>
+                <a className='flex rounded-xl bg-[#4CA7FF] h-full w-1/3 text-center justify-center' href='https://www.linkedin.com/in/abijith-vasanthakumar-b87b501b0/' target="_blank" rel="noopener noreferrer">
                   <Image 
                   src={linkedinIcn}
                   height={60}
                   width={50}
                   />
                 </a>
-                <a className='flex rounded-xl bg-purple-600 h-full w-1/3 text-center justify-center' href='https://github.com/Abjcodes'>
+                <a className='flex rounded-xl bg-purple-600 h-full w-1/3 text-center justify-center' href='https://github.com/Abjcodes' target="_blank" rel="noopener noreferrer">
                   <Image 
                   src={githubIcn}
                   height={60}
@@ -427,7 +427,7 @@ export default function Home() {
               </div>
 
               <div className='sm:h-1/2 h-24 rounded-xl flex flex-row gap-3'>
-                <a className='w-2/3 rounded-xl bg-gray-800 text-center flex justify-center items-center' href='https://linktr.ee/AbijithMV'>
+                <a className='w-2/3 rounded-xl bg-gray-800 text-center flex justify-center items-center' href='https://linktr.ee/AbijithMV' target="_blank" rel="noopener noreferrer">
                     <p className='text-gray-400 font-medium text-lg'>
                       My reading list
                     </p>
@@ -451,7 +451,7 @@ export default function Home() {
               <div class="absolute left-0 right-0 h-full rounded-xl bg-black opacity-60">
                 <div className='mx-8 mt-28 sm:mt-52'>
                   <p className='text-white sm:text-slate-300 font-semibold text-lg pt-10 sm:text-xl sm:pr-20 sm:pt-0 leading-relaxed sm:leading-relaxed'>
-                  Ps: I loove anime
+                  Ps: I love anime
                   </p>
                   <p className='text-white sm:text-slate-300 font-light text-lg sm:text-xl sm:pr-20 sm:pt-2 leading-relaxed sm:leading-relaxed'>
                   Currently watching: Black clover
